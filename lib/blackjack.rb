@@ -31,7 +31,11 @@ def initial_round
 end
 
 def hit?
-  # code hit? here
+  prompt_user
+  result = get_user_input
+  if result = 'h' 
+    
+  end
 end
 
 def invalid_command
