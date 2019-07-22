@@ -48,9 +48,8 @@ end
 #####################################################
 
 def runner
-  current_total = 0
   welcome 
-  current_total += initial_round
+  current_total = initial_round
   until hit?(current_total) > 21 do
     current_total += hit?(current_total)
     display_card_total(current_total)
