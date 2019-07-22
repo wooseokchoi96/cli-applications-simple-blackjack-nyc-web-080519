@@ -48,6 +48,9 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  current_total = 0
+  welcome 
+  current_total = initial_round
+  hit?
 end
     
