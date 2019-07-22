@@ -31,11 +31,13 @@ def initial_round
 end
 
 def hit?
+  sum = 0
   prompt_user
   result = get_user_input
   if result = 'h' 
-    
+    sum += deal_card
   end
+  sum
 end
 
 def invalid_command
