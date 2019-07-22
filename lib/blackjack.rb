@@ -34,8 +34,8 @@ def hit?
   # code hit? here
 end
 
-def invalid_command
-  # code invalid_command here
+def invalid_command(input)
+  
 end
 
 #####################################################
